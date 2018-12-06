@@ -1,0 +1,32 @@
+package com.example.filman_gf.wallpaperanime.Database.LocalDatabase;
+
+
+import android.arch.persistence.room.Database;
+import android.arch.persistence.room.Room;
+import android.arch.persistence.room.RoomDatabase;
+import android.content.Context;
+
+import com.example.filman_gf.wallpaperanime.Database.Recents;
+
+import static com.example.filman_gf.wallpaperanime.Database.LocalDatabase.LocalDatabase.DATABASE_VERSION;
+
+@Database(entities = Recents.class,version = DATABASE_VERSION)
+public abstract class LocalDatabase extends RoomDatabase {
+    public static final int DATABASE_VERSION = 2;
+    public static final String DATABSE_NAME="NEKOLiveWallpaper";
+
+    public abstract RecentsDAO recentsDAO();
+
+    private static LocalDatabase instance;
+
+    public static LocalDatabase getInstance(Context context)
+    {
+        if(instance == null)
+        {
+            instance = Room.databaseBuilder(context,LocalDatabase.class,DATABSE_NAME)
+                    .fallbackToDestructiveMigration()
+                    .build();
+        }
+        return instance;
+    }
+}

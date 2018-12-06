@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "158100323834",
+    "firebase_url": "https://androidlivewallpaper-f53e2.firebaseio.com",
+    "project_id": "androidlivewallpaper-f53e2",
+    "storage_bucket": "androidlivewallpaper-f53e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158100323834:android:8a35125dc20ac984",
+        "android_client_info": {
+          "package_name": "com.example.filman_gf.androidlivewallpaper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158100323834-fk2ev1hhm8o2evmpnoqkrfkbddt5hspo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.filman_gf.androidlivewallpaper",
+            "certificate_hash": "6173987cc6ec3918e43e3f0693d7a7df3f4b53bf"
+          }
+        },
+        {
+          "client_id": "158100323834-6i2i3pkuhrvlg69nk7c2eq85kusag45f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA066o_Mrn8FXNeGoxTapFmIWmQ4sQUVAM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "158100323834-6i2i3pkuhrvlg69nk7c2eq85kusag45f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158100323834:android:e940f94f4e658a84",
+        "android_client_info": {
+          "package_name": "com.example.filman_gf.wallpaperanime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158100323834-gsmpg5oih00qiepeu4ud1crk08cusv4v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.filman_gf.wallpaperanime",
+            "certificate_hash": "6173987cc6ec3918e43e3f0693d7a7df3f4b53bf"
+          }
+        },
+        {
+          "client_id": "158100323834-6i2i3pkuhrvlg69nk7c2eq85kusag45f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA066o_Mrn8FXNeGoxTapFmIWmQ4sQUVAM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "158100323834-6i2i3pkuhrvlg69nk7c2eq85kusag45f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
